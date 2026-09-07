@@ -260,10 +260,10 @@ CHECKOV = PypiTool(
     requires=(UV,),
 )
 
-# verify: https://pypi.org/project/zizmor/1.26.1/#files  (per-file SHA256)
+# verify: https://pypi.org/project/zizmor/1.30.0/#files  (per-file SHA256)
 ZIZMOR = PypiTool(
     name="zizmor",
-    version="1.26.1",
+    version="1.30.0",
     requirements=_lock("zizmor"),
     entrypoints=("zizmor",),
     requires=(UV,),
